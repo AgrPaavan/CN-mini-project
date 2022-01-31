@@ -1,0 +1,46 @@
+body {
+  background-color: #121212;
+}
+
+nav {
+  position: fixed;
+  z-index: 10;
+  left: 0;
+  right: 0;
+  top: 0;
+  height: 5rem;
+}
+
+nav .logo {
+  float: left;
+  width: 40%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  color: white;
+}
+
+nav .logo img {
+  margin: 3rem;
+}
+
+nav .nav {
+  padding-left: 25rem;
+  margin: 0;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  font-family: Roboto;
+}
+
+nav .nav li {
+  list-style: none;
+}
+
+nav .nav a {
+  display: block;
+  font-size: 20px;
+  padding: 1rem;
+  color: #fff;
+  text-decoration: none;
+}
